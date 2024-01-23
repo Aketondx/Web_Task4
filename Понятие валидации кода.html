@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Валидация кода</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Валидаторы кода</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Понятие валидации кода.html">Понятие валидации кода</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Роль и функции валидатора.html">Роль и функции валидатора</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Этапы валидации кода.html">Этапы валидации кода</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Дополнительные инструменты валидации.html">Дополнительные инструменты валидации</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Контакты.html">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="row">
+      <div class="col-md-3">
+        <aside>
+          <div class="sidebar">
+            <h4>Меню</h4>
+            <ul class="list-group">
+              <li class="list-group-item"><a href="index.html">Главная</a></li>
+              <li class="list-group-item"><a href="Понятие валидации кода.html">Понятие валидации кода</a></li>
+              <li class="list-group-item"><a href="Роль и функции валидатора.html">Роль и функции валидатора</a></li>
+              <li class="list-group-item"><a href="Этапы валидации кода.html">Этапы валидации кода</a></li>
+              <li class="list-group-item"><a href="Дополнительные инструменты валидации.html">Дополнительные инструменты валидации</a></li>
+              <li class="list-group-item"><a href="Контакты.html">Контакты</a></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+      <div class="col-md-9">
+        <main>
+          <center><h1>Понятие валидации кода</h1></center>
+            - Преимущества:
+              <p>Валидация кода — проверка верстки на соответствие стандартам W3C и правильность. Его считают качественным и валидным, если он без ошибок и отвечает правилам разметки (HTML, CSS и др.). 
+                 Проблемы в коде могут привести к неправильному отображению сайта, нарушениям в его функциональности. Пример: вы забыли указать путь к изображению, а посетители увидят пустое место на странице вместо картинки товара. 
+                 Это может оттолкнуть пользователей, негативно влиять на общее впечатление от сайта.</p>
+              <img width="800" height="533" src="pictures/4web_1.png">
+              <p>При проверке кода следует уделить внимание не только выявлению ошибок, но и его соответствию стандартам HTML, CSS и другим. 
+                 Если этим не заниматься, верстка может некорректно отображаться на мобильных устройствах или не открываться в старых браузерах.</p>
+              <hr />
+              <p>Проверка кода на ошибки перед публикацией страницы — важный шаг в процессе разработки веб-ресурса. Существует несколько причин, по которым ее стоит провести:</p>
+         
+         <ul>
+           <li>Множество пользователей посещают сайты с различных устройств, таких как компьютеры, планшеты и смартфоны. Каждое из них имеет особенности отображения веб-страниц, и важно убедиться, что ваш ресурс выглядит хорошо на всех платформах.</li>
+           <li>И опытные программисты могут допустить ошибки, особенно если работают с большими проектами или используют новые технологии. Валидация кода помогает выявить потенциальные проблемы и убедиться, что он не содержит неточностей.</li>
+           <li>Важно создавать сайты, которые доступны для всех пользователей, включая людей с ограниченными возможностями. Пример: добавление атрибута <alt> к картинке позволяет людям со слабым зрением понять, что изображено. Они имеют скринридеры, которые зачитывают содержимое страницы, включая подписи к изображениям.</li>
+           <li>Чем короче и оптимизированнее HTML-код, тем быстрее загружается страница. Это важно для удобства пользователей и может положительно сказаться на ранжировании сайта в поисковых системах.</li>
+           <li>Наличие битых ссылок на ресурсе может повредить вашу репутацию как разработчика и привести к потере посетителей. Важно регулярно проверять линки на работоспособность и исправлять возникшие проблемы.</li>
+         </ul>
+         
+        </main>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer mt-auto py-3 bg-light text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-right">
+          <p>&copy; 2024 code validators maden by M.Turkov</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
